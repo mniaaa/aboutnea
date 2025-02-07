@@ -1,0 +1,131 @@
+.proyectos {
+    background: rgb(26, 22, 44);
+    background: linear-gradient(180deg, rgb(8, 5, 8) 11%, rgb(63, 77, 110) 60%, rgb(1, 0, 1) 100%);
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: auto;
+    padding-bottom: .5rem;
+    
+}
+.Proyectos{
+  background: rgb(8, 45, 61);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 11%, rgb(37, 37, 80) 60%, rgb(8, 5, 8) 100%);
+    
+}
+.proyectos__project img {
+  display: flex;
+  flex-direction:column;
+    width: 100%;
+    
+}
+
+.proyectos__project {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: #000000;
+}
+
+.proyectos__project-titulo2 {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;
+    padding: .2rem;
+    color: #000000;
+}
+
+
+
+
+
+.proyectos{
+  display:flex;
+  flex-direction:column;
+  
+  width:420px;
+  border: 1px solid rgb(11, 1, 63);
+  box-shadow: 2px 2px 8px 4px #4486cdd1;
+  border-radius:10px;
+  font-family: sans-serif;
+}
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 3px 10px;;
+}
+.cuerpo{
+  padding: 2px;
+}
+.pie{
+ 
+background: #3d0c2a;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+
+}
+.pie a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: ""
+}
+
+
+.contenedor{
+display: flex;
+justify-content:center;
+background-color: transparent;
+flex-wrap:wrap;
+gap: 16px;
+}
+
+.tarjeta{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width: auto;
+border: 1px solid rgb(1, 1, 1);
+box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+border-radius:15px;
+font-family: sans-serif;
+}
+.titulo{
+font-size: 24px;
+padding: 10px 10px 0 10px;;
+}
+.cuerpo{
+padding: 10px;
+flex: 1 1 100%;
+}
+.pie{
+background: #6699ff;
+border-radius:0 0 15px 15px;
+padding: 10px;
+text-align:center;
+}
+.pie a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+.pie a:after {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+content: ""
+}
+
+ 

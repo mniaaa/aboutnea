@@ -1,0 +1,44 @@
+.formacion {
+    background: rgb(23, 21, 24);
+    background: linear-gradient(180deg, rgb(9, 6, 10) 6%, rgb(11, 196, 224) 81%, rgb(33, 17, 30) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.formacion__titulo3 {
+    padding-top: 1rem;
+    color: #02a2ff;
+}
+#IdFormacion{
+    display: flex;
+  align-items: center;
+  
+
+}
+
+
+.formacion img {
+    width: 100px;
+    justify-self: center;
+    border: #03fafa ridge;
+    padding: 1rem;
+   /*  cursor: pointer;*/
+} 
+
+
+
+@media screen and (min-width: 60px) {
+
+    .formacion img {
+        width: 80%;
+        align-items: center;
+    }
+}
+#carouselExampleCaptions{
+    width: 400px
+    
+}
+.formacion{
+    width: 100%;
+    font-weight: 100px
+}

@@ -1,0 +1,41 @@
+html { 
+     background: rgba(135, 206, 223, 0.692);
+    /* background: linear-gradient(180deg, rgb(58, 30, 55) 11%, rgb(127, 93, 125) 70%, rgb(39, 5, 38) 100%); */
+ 
+    text-align: center;
+} 
+
+embed {
+    background: rgba(19, 13, 25, 0.81);
+    background: linear-gradient(180deg, rgba(24, 48, 73, 0.81) 60%, rgb(4, 38, 125) 60%, rgba(145,184,193,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    /* cursor: pointer; */
+}
+
+
+
+h1 { 
+	position: relative; 
+	float: left;
+	background: rgb(4, 10, 98);
+	color: #fff;
+	font-size: 2.4em;
+    padding: .5rem;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: rgb(2, 14, 105);
+    border-left: .5px solid #000;
+    font-size: 1.3em;
+    animation: escribir 8s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}

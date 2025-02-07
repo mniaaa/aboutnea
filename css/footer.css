@@ -1,0 +1,26 @@
+footer {
+     background: rgb(11, 20, 22);
+    background: linear-gradient(180deg, rgb(2, 61, 91) 11%, rgb(2, 62, 115) 60%, rgb(5, 37, 94) 100%);
+ 
+    color: #00c8ff;
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 0.5rem 0;
+    line-height: 1.5;
+    box-shadow: 0 -6px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.22);
+    display: flex;
+    justify-content: end;
+    position: relative;
+    /* cursor: pointer; */
+    
+}
+
+.footer__contenido {
+    margin: 1rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }

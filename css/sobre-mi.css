@@ -1,0 +1,50 @@
+.sobreMi {
+    background: rgb(32, 17, 32);
+    background: linear-gradient(180deg, rgba(213, 165, 212,1) 11%, rgba(213, 165, 212,1) 60%, rgba(17, 155, 193,1) 100%);
+;
+    background: rgb(15, 73, 88);
+    background: linear-gradient(180deg, rgb(6, 68, 68) 11%, rgba(213, 165, 212,1) 60%, rgba(213, 165, 212,1) 100%);
+    display: flex;
+    flex-direction: column
+    /* flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    position: relative; */
+}
+
+.sobreMi__fondo{
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    margin: auto auto;
+    opacity: 0.2;
+    align-self: center;
+}
+
+.sobreMi p {
+    text-align: left;
+}
+
+.sobreMi__icono-sonrie {
+    width: 40px;
+    margin-left: 5%;
+}
+
+.subir {
+    width: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+@media screen and (min-width: 860px) {
+    .sobreMi {
+        padding: 2% 10% 5% 10%;
+    }
+
+    .sobreMi__fondo{
+        max-width: 30%;
+        
+    }
+}
